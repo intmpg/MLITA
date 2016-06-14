@@ -1,47 +1,13 @@
-﻿Сборка начата 13.06.2016 19:10:10.
+﻿Сборка начата 14.06.2016 19:04:48.
      1>Проект "C:\Users\123\Desktop\MLITA\Friday13\Friday13\Friday13\Friday13.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
-     1>c:\users\123\desktop\mlita\friday13\friday13\friday13\source.cpp(26): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "fout"
-     1>c:\users\123\desktop\mlita\friday13\friday13\friday13\source.cpp(26): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "std::string" (или приемлемое преобразование отсутствует)
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(497): note: может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(477): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(457): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(437): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(417): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(396): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(376): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(355): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(335): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(315): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(290): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(270): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(236): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(216): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(209): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(202): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(196): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(1021): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(983): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::string>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)"
-                 with
-                 [
-                     _Ty=std::string
-                 ]
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(973): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(966): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(959): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(952): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(826): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(779): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(741): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)"
-         c:\program files (x86)\microsoft visual studio 14.0\vc\include\ostream(694): note: или       "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)"
-         c:\users\123\desktop\mlita\friday13\friday13\friday13\source.cpp(26): note: при попытке сопоставить список аргументов "(std::ofstream, std::string)"
-     1>c:\users\123\desktop\mlita\friday13\friday13\friday13\source.cpp(32): error C2601: main: недопустимые локальные определения функций
-         c:\users\123\desktop\mlita\friday13\friday13\friday13\source.cpp(5): note: эта строка содержит скобку "{", которая пока не имеет парной
-     1>c:\users\123\desktop\mlita\friday13\friday13\friday13\source.cpp(5): fatal error C1075: в конце файла обнаружен левый непарный фигурная скобка "{"
-     1>Сборка проекта "C:\Users\123\Desktop\MLITA\Friday13\Friday13\Friday13\Friday13.vcxproj" завершена (целевые объекты Build) с ошибкой.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\123\Desktop\MLITA\Friday13\Friday13\Debug\Friday13.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\123\Desktop\MLITA\Friday13\Friday13\Debug\Friday13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\123\Desktop\MLITA\Friday13\Friday13\Debug\Friday13.lib" /MACHINE:X86 Debug\Source.obj
+         Friday13.vcxproj -> C:\Users\123\Desktop\MLITA\Friday13\Friday13\Debug\Friday13.exe
+     1>Сборка проекта "C:\Users\123\Desktop\MLITA\Friday13\Friday13\Friday13\Friday13.vcxproj" завершена (целевые объекты Build).
 
-Ошибка сборки.
+Сборка успешно завершена.
 
-Затраченное время: 00:00:04.98
+Затраченное время: 00:00:03.42
