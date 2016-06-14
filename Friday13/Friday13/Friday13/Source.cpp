@@ -2,9 +2,7 @@
 #include <fstream>
 using namespace std;
 
-ofstream fout("OUTPUT.txt");
-
-void countWeekDays(int year0) {
+unsigned int countWeekDays(int year0) {
 	int year, monthNum, c, y, dayNum;
 	string monthNumbers[12] = { "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER" };
 	
@@ -26,15 +24,14 @@ void countWeekDays(int year0) {
 		
 		dayNum = ((monthNum + 1) * 26 / 10 + 13 + y + y / 4 + c / 4 - 2 * c) % 7;//День недели выпадающий на 13 число месяца(0=Сб,1=Вс,...,6=Пт)
 
-		if (dayNum == 6) {
-			fout << year0 << " " << monthNumbers[i - 1].c_str() << endl; //Если день недели =6, то это Пятница
-		}
 	}
+	return dayNum;
 }
 
 int main()
 {
 	ifstream fin("INPUT.txt");
+	ofstream fout("OUTPUT.txt");
 
 	if (!fin)
 	{
@@ -47,6 +44,9 @@ int main()
 	
 	for (int i = year1; i <= year2; i++) {
 		countWeekDays(i);
+		if (dayNum == 6) {
+			fout << year0 << " " << monthNumbers[i - 1].c_str() << endl; //Если день недели =6, то это Пятница
+		}
 	}
 
 	cout << "Succesful" << endl;
